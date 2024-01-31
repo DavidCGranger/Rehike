@@ -1,0 +1,149 @@
+title: "Rehike-Einstellungen"
+saveChanges: "Änderungen speichern"
+saveChangesSuccess: "Konfiguration erfolgreich aktualisiert!"
+saveChangesFailure: "Aktualisierung der Konfiguration fehlgeschlagen!"
+
+tabs:
+  appearance: "Darstellung"
+  experiments: "Experimente"
+  advanced: "Fortgeschritten"
+
+props:
+  appearance:
+    playerChoice:
+      title: "Wähle die Video-Player-Iteration:"
+      values:
+        CURRENT: "Neuester" # No specific date; true latest player.
+        PLAYER_2022: "2022 - Eckige Menüs, altes Storyboard"
+        PLAYER_2020: "2020 - Kleinere UI"
+        PLAYER_2014: "2014 - Klassische UI, altes Buffering-Verhalten"
+    classicPlayerForcePersistentControls:
+      title: "Kontrollknöpfe immer anzeigen"
+      subtitle: >
+        Könnte Probleme mit Custom-CSS-Dateien verusachen, weil dies für die neueste
+        offizielle Hitchhiker-CSS-Version angepasst ist
+    classicPlayerTheme:
+      title: "Player-Thema:"
+      values:
+        DARK: "Dunkles Design" # The default theme used since about 2012, but was introduced in 2011
+        LIGHT: "Helles Design"
+    classicPlayerColor:
+      title: "Farbe der Player-Zeitleiste:"
+      values:
+        RED: "Rot"
+        WHITE: "Weiß" # For whatever reason this is a thing
+    modernLogo:
+      title: "Nutze das aktuelle YouTube-Logo"
+      subtitle: >
+        Genutzt seit 2017. Dies zu aktivieren könnte einige Custom-CSS-Themen 
+        aus bevor 2017 beschädigen.
+    uploadButtonType:
+      title: "Art des Hochladeknopfes:"
+      values:
+        BUTTON: "Knopf (2013 - 2016)"
+        ICON: "Material-Icon (2016 - 2018)"
+        MENU: "Creation-Menu (2018+)"
+    largeSearchResults:
+      title: "Größere Thumbnails auf der Suchseite"
+      subtitle: >
+        Wird Probleme mit einigen Custom-Themes aus bevor 2017 verursachen.
+    swapSearchViewsAndDate:
+      title: "Aufrufe und Datum auf der Suchseite vertauschen"
+      subtitle: >
+        Die Aufrufzahl bevor dem Datum auf Video-Renderern auf der Suchseite anzeigen.
+    showVersionInFooter:
+      title: "Rehike-Version im Footer anzeigen"
+      subtitle: >
+        Zeigt einen praktischen Link zur Rehike-About-Page im Seiten-Footer. 
+    useRyd:
+      title: "Dislikes auf Videos anzeigen"
+      subtitle: >
+        Daten der Return YouTube Dislike-API. 
+    usernamePrepends:
+      title: "Zeige \"von\" vor dem Name des Autors auf Video-Links"
+      subtitle: >
+        Genutzt vor 2016.
+    noViewsText:
+      title: "Entferne \"Aufrufe\"-Text von der Aufruf-Zahl auf der Watch-Seite."
+      subtitle: >
+        Vor 2016 wurde nur die Zahl selbst ohne Label angezeigt.
+    movingThumbnails:
+      title: "Zeige eine animierte Vorschau, wenn man mit dem Mauszeiger über das Video fährt."
+      subtitle: >
+        Genutzt seit 2018.
+    cssFixes:
+      title: "YouTube-CSS-Fixes"
+      subtitle: >
+        Behebt Fehler oder Inkonsistenzen mit der originalen Hitchhiker-CSS. Könnte 
+        Kömpatibilität mit einigen Userstyles beeinflussen.
+    watchSidebarDates:
+      title: "Zeige das Uploaddatum auf Watch-Page-Empfehlungen"
+      subtitle: >
+        Im Gegensatz zu Polymer zeigte Hitchhiker diese standardmäßig nicht an. 
+    watchSidebarVerification:
+      title: "Zeige Verifikationshaken auf Watch-Page-Empfehlungen."
+      subtitle: >
+        Im Gegensatz zu Polymer zeigte Hitchhiker diese standardmäßig nicht an. 
+    oldBestOfYouTubeIcons:
+      title: "Alte rote icons in der \"Das beste von YouTube\" Guide-Sektion"
+      subtitle: >
+        Zeige die roten Themen-Icons, im Gegensatz zu den schwarzen die heute benutzt werden.
+    smallPlayer:
+      title: "Nutze einen kleineren Player-Style."
+      subtitle: >
+        Zeige einen kompakten Button-Stil ähnlich zu dem aus 2019. Dies könnte komfortabler
+        mit kleinen Fenstern sein.
+    enableAdblock:
+      title: "Aktiviere eingebautes AdBlock"
+      subtitle: >
+        Bietet einen stabilen AdBlocker für Werbung vor und innerhalb Videos. 
+  
+  experiments:
+    displayPlayerChoice:
+      title: "Aktiviere die Wahl zwischen Player-Iterationen"
+      subtitle: >
+        Aktiviert die Option, um zwischen Player-Iterationen wechseln zu können.
+    useSignInV2:
+      title: "Nutze Sign-in v2"
+      subtitle: >
+        Nutze den experimentellen Rewrite des Login-Codes. Diese Option
+        sollte für die Dauer von v2's Entwicklung bleiben, und danach wird
+        v2 Standard und die alte Version wird entfernt werden.
+    disableSignInOnHome:
+      title: "Deaktiviere authentifizierte Startseiten-Anfragen"
+      subtitle: >
+        Macht die Startseite ausgeloggt. Dies ist ein Workaround für YouTube's 
+        Blockierung der Startseite mit deaktivierter Watch-History. 
+        (Stand 28.08.2023)
+    encryptedStreamsDO_NOT_USE_UNLESS_YOU_KNOW_WHAT_YOU_ARE_DOING:
+      title: "Nutze verschlüsselte Video-Streams"
+      subtitle: >
+        NICHT AKTIVIEREN! Dies wird die Watch-Seite zerstören! Dies sollte bis es gelöst wird
+        nur von Entwicklern genutzt werden!
+
+  advanced:
+    enableDebugger:
+      title: "Aktiviere den Debugger"
+      subtitle: >
+        Der Debugger bietet praktische Tools für Entwickler. Nur aktivieren wenn 
+        man ein Entwickler ist oder mehr Informationen für eine Fehlermeldung benötigt.
+    clearSigninCache:
+      title: "Sign-in-Cache"
+      subtitle: >
+        Rehike speichert den Sign-in Cache um nicht zu viele Anfragen an YouTube zu stellen.
+      button: "Leere den Sign-in-Cache"
+    clearPlayerCache:
+      title: "Player-Cache"
+      subtitle: >
+        Rehike zwischenspeichert Informationen über den Player um nicht zu viele Anfragen an
+        YouTube zu stellen.
+      button: "Leere den Player-Cache"
+    factoryReset:
+      title: "Setze Rehike zurück"
+      subtitle: >
+        Setze Rehike auf die Standards zurück, inklusive Einstellungen, den Cache, und alle
+        Änderungen die nicht am Remote-Repository sind.
+      button: "Zurücksetzen"
+    updateRehike:
+      title: "Aktualisiere Rehike"
+      button: "Aktualisieren"
