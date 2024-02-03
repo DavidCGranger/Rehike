@@ -1,29 +1,29 @@
 openButtonLabel: "Debugger"
-openButtonErrorCountSingular: "(1 error)"
-openButtonErrorCountPlural: "(%s errors)"
+openButtonErrorCountSingular: "(1 Fehler)"
+openButtonErrorCountPlural: "(%s Fehler)"
 condensedButtonLabelSingular: >
-  An error has occurred. Click to learn more.
+  Ein Fehler ist aufgetreten. Klicken Sie hier, um mehr zu erfahren.
 condensedButtonLabelPlural: >
-  %s errors have occurred. Click to learn more.
+  %s Fehler sind aufgetreten. Klicken Sie hier, um mehr zu erfahren.
 
 debuggerTitle: "Debugger"
-condensedDebuggerTitle: "Errors"
-condensedDebuggerHelpLink: "What should I do?"
-debuggerClose: "Close"
+condensedDebuggerTitle: "Fehler"
+condensedDebuggerHelpLink: "Was soll ich tun?"
+debuggerClose: "Schließen"
 
-errorWarning: "Warning"
-errorError: "Error"
-errorNotice: "Notice"
-errorDeprecated: "Deprecated"
+errorWarning: "Warnung"
+errorError: "Fehler"
+errorNotice: "Hinweis"
+errorDeprecated: "Veraltet"
 
-tabErrorTitle: "Errors (%s)"
-tabConsoleTitle: "PHP console"
-tabNetworkTitle: "Network"
-tabPerformanceTitle: "Performance"
-tabYtWalkerTitle: "Variable walker"
-nothingToSee: "Nothing to see here!"
+tabErrorTitle: "Fehler (%s)"
+tabConsoleTitle: "PHP-Konsole"
+tabNetworkTitle: "Netzwerk"
+tabPerformanceTitle: "Leistung"
+tabYtWalkerTitle: "Variable Walker"
+nothingToSee: "Hier ist nichts zu sehen!"
 
-historyCurrent: "Current page"
-historyPrevious: "Previous page"
-historyPagesAgo: "# pages ago"
-historyUnavailable: "History unavailable"
+historyCurrent: "Aktuelle Seite"
+historyPrevious: "Vorherige Seite"
+historyPagesAgo: "Vor # Seiten"
+historyUnavailable: "Verlauf nicht verfügbar"

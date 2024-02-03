@@ -1,57 +1,57 @@
-aboutRehike: "About Rehike"
+aboutRehike: "Über Rehike"
 brandName: "Rehike"
 versionHeader: "Version %s"
 nightly: "Nightly"
 nightlyInfoTooltip: >
-  This release is bleeding edge and may contain irregular bugs.
+  Diese Version ist bleeding edge und kann irreguläre Bugs enthalten.
 
-subheaderNightlyInfo: "Current branch information"
-nonGitNotice: "This release of Rehike lacks Git information."
+subheaderNightlyInfo: "Aktuelle Branch-Informationen"
+nonGitNotice: "In dieser Version von Rehike fehlen Git-Informationen."
 nonGitExtended: >
-  This may occur if you downloaded the repository directly from GitHub, such 
-  as from the "Download ZIP" feature. Some version information may be lost or 
-  unavailable.
-syncGithubButton: "Synchronize with GitHub"
-failedNotice: "Failed to get version information."
-remoteFailedNotice: "Failed to get remote version information."
-remoteFailedExtended: "Version information is limited."
-noDotVersionNotice: "The .version file is missing or corrupted."
-noNewVersions: "No new versions available."
-oneNewVersion: "1 new version available."
-varNewVersions: "%s new versions available."
-unknownNewVersions: "This version is critically out of date."
+  Dies kann auftreten, wenn Sie das Repository direkt von GitHub heruntergeladen haben, beispielsweise 
+  z. B. über die "Download ZIP"-Funktion. Einige Versionsinformationen können verloren gehen oder 
+  nicht verfügbar sein.
+syncGithubButton: "Mit GitHub synchronisieren"
+failedNotice: "Es konnten keine Versionsinformationen abgerufen werden."
+remoteFailedNotice: "Es konnten keine serverseitigen Versionsinformationen abgerufen werden."
+remoteFailedExtended: "Versionsinformationen sind eingeschränkt."
+noDotVersionNotice: "Die .version-Datei fehlt oder ist beschädigt."
+noNewVersions: "Keine neuen Versionen verfügbar."
+oneNewVersion: "Eine neue Version verfügbar."
+varNewVersions: "%s neue Versionen verfügbar."
+unknownNewVersions: "Diese Version ist krtisch veraltet."
 
-updatesAvailable: "Updates available"
-upToDate: "You're up to date with the remote branch."
+updatesAvailable: "Updates verfügbar"
+upToDate: "Sie sind auf dem neuesten Stand mit der Remote-Branch."
 
-headingVersionInfo: "About Rehike"
-viewOnGithub: "View on GitHub"
+headingVersionInfo: "Über Rehike"
+viewOnGithub: "Auf GitHub ansehen"
 
-extraInfo: "Runtime information"
-operatingSystem: "Operating system"
-phpVersion: "PHP version"
-browserVersion: "Browser version"
+extraInfo: "Runtime-Informationen"
+operatingSystem: "Betriebssystem"
+phpVersion: "PHP-Version"
+browserVersion: "Browserversion"
 
-githubLinkButton: "Rehike on GitHub"
+githubLinkButton: "Rehike auf GitHub"
 creditsButton: "Credits"
-runtimeInfoMoreInfoButton: "More info"
+runtimeInfoMoreInfoButton: "Mehr Infos"
 gitManagerPullButton: "Pull"
 gitManagerUnpushedChanges: >
-  You have unpushed local changes, so this is actually older.
+  Sie haben lokale Änderungen rückgängig gemacht, so dass diese tatsächlich älter sind.
 
 # -- Git manager messages --
 
-gitManagerDialogDismissButton: "Dismiss"
-gitManagerDialogRetryButton: "Retry"
+gitManagerDialogDismissButton: "Ignorieren"
+gitManagerDialogRetryButton: "Erneut versuchen"
 
-gitManagerDialogFailedPullTitle: "Failed to pull"
+gitManagerDialogFailedPullTitle: "Pull fehlgeschlagen"
 gitManagerDialogFailedPullMessage: >
-  Failed to pull changes from the remote source. Git error log:
+  Änderungen konnten nicht von der serverseitigen Quelle gezogen werden. Git-Fehlerprotokoll:
 
 # -- Translations for the credits section --
 
 creditsTitle: "Credits"
-creditsDevelopersTitle: "Rehike Developers"
+creditsDevelopersTitle: "Rehike-Entwickler"
 
 # Major contributor names.
 # Feel free to add transliterations of names in parentheses if you wish
@@ -61,8 +61,7 @@ creditsDaylin: "Daylin Cooper"
 creditsTaniko: "Taniko Yamamoto"
 
 creditsThirdPartyHeader: >
-  Rehike makes use of the following third-party software, contributions,
-  or services:
+  Rehike nutzt folgende Software, Contributions oder Dienstleistungen von Dritten:
 
 # Credits to Prototaxis for documenting the WEB v2 shelves technique
 # we use for the homepage.
@@ -70,9 +69,9 @@ creditsThirdPartyHeader: >
 # GitHub profile, but it's not featured here in order to avoid embedding
 # HTML content.
 creditsPrototaxisTemplate: >
-  %s for documenting the InnerTube API exploits we use to restore the
-  classic "shelves" homepage design.
+  %s für die Dokumentation der InnerTube-API-Exploits, die wir zur Wiederherstellung des
+  klassischen "Shelves"-Homepage-Designs nutzen
 
 creditsThirdPartyFooter: >
-  Use of these third-party services is governed by their respective licenses.
-  Where possible, their application will be optional.
+  Die Nutzung dieser Drittanbieterdienste unterliegt ihren jeweiligen Lizenzen.
+  Wann immer möglich, ist ihre Nutzung optional.

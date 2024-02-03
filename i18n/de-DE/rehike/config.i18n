@@ -16,6 +16,8 @@ props:
         CURRENT: "Neuester" # No specific date; true latest player.
         PLAYER_2022: "2022 - Eckige Menüs, altes Storyboard"
         PLAYER_2020: "2020 - Kleinere UI"
+        PLAYER_2015_NEW: "2015 - Moderne UI, alte Icons"
+        PLAYER_2015: "2015 - Klassische UI, mehr Features und neuer Endscreen"
         PLAYER_2014: "2014 - Klassische UI, altes Buffering-Verhalten"
     classicPlayerForcePersistentControls:
       title: "Kontrollknöpfe immer anzeigen"

@@ -1,73 +1,73 @@
-languageName: "English"
-expandedLanguageName: "English (United States)"
+languageName: "German"
+expandedLanguageName: "German (Germany)"
 writingDirection: ltr
 
-thousandsSeparator: ","
-decimalSeparator: "."
+thousandsSeparator: "."
+decimalSeparator: ","
 
 numberOfMonths: 12
 daysInWeek: 7
 
 spaceOnLineBreak: true
 
-standardDateOrder: mdy
+standardDateOrder: dmy
 
-firstDayOfWeek: 1 # Sunday
+firstDayOfWeek: 2 # Monday
 
-am: "AM"
-pm: "PM"
+am: "am"
+pm: "pm"
 
 # https://www.php.net/manual/en/datetime.format.php
-expandedDateWithTime: "l, F j, Y g:i A" # Tuesday, October 17, 2023 12:50 AM
-expandedDate: "l, F j, Y" # Tuesday, October 17, 2023
-dateWithTime: "F j, Y g:i A" # October 17, 2023 12:50 AM
-date: "F j, Y" # October 17 2023
-shortDateWithTime: "m/d/Y g:i A" # 10/17/2023 12:50 AM
-shortDate: "m/d/Y" # 10/17/2023
-time: "g:i A" # 12:50 AM
+expandedDateWithTime: "l, j. F Y, h:i" # Tuesday, October 17, 2023 12:50 AM
+expandedDate: "l, j. F Y" # Tuesday, October 17, 2023
+dateWithTime: "d.m.Y, h:i" # October 17, 2023 12:50 AM
+date: "d.m.Y" # October 17 2023
+shortDateWithTime: "j.n.y, h:i" # 10/17/2023 12:50 AM
+shortDate: "j.n.y" # 10/17/2023
+time: "h:i" # 12:50 AM
 
 daysOfWeek:
-  1: "Sunday"
-  2: "Monday"
-  3: "Tuesday"
-  4: "Wednesday"
-  5: "Thursday"
-  6: "Friday"
-  7: "Saturday"
+  1: "Sonntag"
+  2: "Montag"
+  3: "Dienstag"
+  4: "Mittwoch"
+  5: "Donnerstag"
+  6: "Freitag"
+  7: "Samstag"
 
 shortDaysOfWeek:
-  1: "Sun"
-  2: "Mon"
-  3: "Tue"
-  4: "Wed"
-  5: "Thur"
-  6: "Fri"
-  7: "Sat"
+  1: "So"
+  2: "Mo"
+  3: "Di"
+  4: "Mi"
+  5: "Do"
+  6: "Fr"
+  7: "Sa"
 
 monthNames:
-  1: "January"
-  2: "Feburary"
-  3: "March"
+  1: "Januar"
+  2: "Februar"
+  3: "März"
   4: "April"
-  5: "May"
-  6: "June"
-  7: "July"
+  5: "Mai"
+  6: "Juni"
+  7: "Juli"
   8: "August"
   9: "September"
-  10: "October"
+  10: "Oktober"
   11: "November"
-  12: "December"
+  12: "Dezember"
 
 shortMonthNames:
   1: "Jan"
   2: "Feb"
-  3: "Mar"
+  3: "März"
   4: "Apr"
-  5: "May"
+  5: "Mai"
   6: "Jun"
   7: "Jul"
   8: "Aug"
-  9: "Sep"
+  9: "Sept"
   10: "Oct"
   11: "Nov"
-  12: "Dec"
+  12: "Dez"
