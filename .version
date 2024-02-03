@@ -1,10 +1,10 @@
 {
-	"previousHash": "c4498af73a3bbc1b95dab10ac7f8e59aa80dc3a2",
-	"currentRevisionId": 1328,
-	"subject": "Unfinished work for comment viewmodel translation",
-	"body": "Unfinished work for comment viewmodel translation",
+	"previousHash": "749b22687cd1958bc85cdf4f4ff8349cd1cdf0b6",
+	"currentRevisionId": 1337,
+	"subject": "[comments/germanify] Expand time unit translation abilities",
+	"body": "[comments/germanify] Expand time unit translation abilities",
 	"branch": "master",
 	"committerName": "Daylin Cooper",
 	"committerEmail": "dcoop2004@gmail.com",
-	"time": 1706669718
+	"time": 1706947474
 }
